@@ -4,7 +4,6 @@ import { ProductProps } from './interface'
 import { getProduct } from './page'
 import colors from 'tailwindcss/colors'
 import { env } from '@/env'
-import Image from 'next/image'
 
 export const runtime = 'edge'
 

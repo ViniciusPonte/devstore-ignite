@@ -13,7 +13,9 @@ const productCard = tv({
 
   variants: {
     variant: {
-      sm: {},
+      sm: {
+        button: 'bottom-4 right-4',
+      },
       md: {
         container: 'col-span-3 row-span-3',
         button: 'bottom-10 right-10',
