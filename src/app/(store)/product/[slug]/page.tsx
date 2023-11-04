@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { ProductProps } from './interface'
 import { Metadata } from 'next'
 
-async function getProduct(slug: string): Promise<Product> {
+export async function getProduct(slug: string): Promise<Product> {
   const response = await api(`/product/${slug}`, {
     next: {
       revalidate: 60 * 60, // 1 hour
